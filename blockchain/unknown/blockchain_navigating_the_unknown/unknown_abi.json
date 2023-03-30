@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "version",
+						"type": "uint256"
+					}
+				],
+				"name": "updateSensors",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "updated",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/unknown_HTB.sol": "Unknown"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/unknown_HTB.sol": {
+			"keccak256": "0x1d487ef9197e03fdcc0096cf369c717d95cf696da7d067e19b419f998cdd75cd",
+			"urls": [
+				"bzz-raw://7bf3b78c42693809b6fbb64b70454e10aa9cd31d8a5e038fe1e17e9754eb2e8d",
+				"dweb:/ipfs/QmbpD9397hZHmd4dzdwoVfLA4wcxVe2Zf1Kqxc4DeNpBAR"
+			]
+		}
+	},
+	"version": 1
+}
